@@ -23,3 +23,7 @@ sleep 10
 echo "Testing"
 nc -z docker 53
 echo "Success"
+
+echo "Testing"
+nslookup example.com docker >/dev/null
+echo "Success"
