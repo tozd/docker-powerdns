@@ -25,5 +25,7 @@ nc -z docker 53
 echo "Success"
 
 echo "Testing"
-nslookup example.com docker >/dev/null
+# Errors that it cannot resolve are expected.
+# But it has to be able to connect to the DNS server.
+nslookup example.com docker
 echo "Success"
