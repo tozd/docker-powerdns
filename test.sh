@@ -27,5 +27,5 @@ echo "Success"
 echo "Testing"
 # Errors that it cannot resolve are expected.
 # But it has to be able to connect to the DNS server.
-nslookup example.com docker
+nslookup -type=any example.com docker
 echo "Success"
