@@ -1,4 +1,4 @@
 #!/bin/bash -e
 
 # PowerDNS sends everything to stderr, so we redirect.
-exec /usr/sbin/pdns_server --disable-syslog=yes --log-timestamp=no --daemon=no 2>&1
+exec /usr/sbin/pdns_server --daemon=no 2>&1

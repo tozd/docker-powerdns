@@ -1,4 +1,0 @@
-#!/bin/bash -e
-
-# PowerDNS sends everything to stderr, so we redirect.
-exec /usr/sbin/pdns_server --daemon=no 2>&1

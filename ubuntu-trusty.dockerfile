@@ -9,4 +9,4 @@ RUN apt-get update -q -q && \
   apt-get install pdns-server --yes --force-yes && \
   apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* ~/.cache ~/.npm
 
-COPY ./etc-3.3/service/powerdns /etc/service/powerdns
+COPY ./etc/service/powerdns /etc/service/powerdns
