@@ -37,6 +37,8 @@ Available as:
 
 Image providing [PowerDNS](https://www.powerdns.com/) DNS server.
 
+When `LOG_TO_STDOUT` is set to `1`, Docker image logs output to stdout and stderr. All stdout output is JSON.
+
 You configure it by mounting a volume into `/etc/powerdns/pdns.d` with files to configure PowerDNS. For example,
 a simple `pdns.conf` file could look like:
 
