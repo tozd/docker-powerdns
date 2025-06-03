@@ -18,6 +18,7 @@ Available as:
 - `ubuntu-bionic`: powerdns-server 4.1.1
 - `ubuntu-focal`: powerdns-server 4.2.1
 - `ubuntu-jammy`: powerdns-server 4.5.3
+- `ubuntu-noble`: powerdns-server 4.8.3
 
 ## Volumes
 
